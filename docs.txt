@@ -1,0 +1,11 @@
+1. npm install zod (untuk validasi)
+2. npm install --save-dev prisma
+3. npm install nest-winston (untuk logger)
+4. install bcrypt
+    npm install bcrypt (untuk hash password)
+    npm install --save-dev @types/bcrypt
+5. install uuid (untuk token session management nya)
+    npm install uuid
+    npm install --save-dev @types/uuid
+6. install config module (untuk config bawaan nest)
+    npm install @nestjs/config
