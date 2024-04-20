@@ -1,3 +1,5 @@
+source from https://www.youtube.com/watch?v=DrqVYkXpods
+
 1. npm install zod (untuk validasi)
 2. npm install --save-dev prisma
 3. npm install nest-winston (untuk logger)
