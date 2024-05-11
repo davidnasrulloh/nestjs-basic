@@ -11,3 +11,40 @@ source from https://www.youtube.com/watch?v=DrqVYkXpods
     npm install --save-dev @types/uuid
 6. install config module (untuk config bawaan nest)
     npm install @nestjs/config
+
+
+
+install prisma with npm install prisma --save-dev
+
+di terminal tulis npx prisma init
+
+setup env connection
+
+tulis dan buat model di schema prisma file
+
+pastikan mysql jalan dan env nya udh bener
+
+migrate dengan perintah npx prisma migrate dev atau npx prisma migrate dev --name init
+
+jalanin prisma studio dengan perintah npx prisma studio
+
+===== next step
+
+install prisma client `npm install @prisma/client`
+
+menghubungkan dengan prisma service dengan membuat file prisma.service.ts diluar
+
+koneksikan pada module nya pada atribute providers
+
+
+=====--========
+Membuat authentication + JWT
+===============
+
+di terminal jalankan
+$ nest g module auth
+$ nest g controller auth
+$ nest g service auth
+
+npm install --save @nestjs/jwt
+
