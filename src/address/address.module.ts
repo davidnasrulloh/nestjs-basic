@@ -1,4 +1,3 @@
-/* eslint-disable prettier/prettier */
 import { Module } from '@nestjs/common';
 import { AddressServices } from './address.service';
 import { AddressController } from './address.controller';
